@@ -13,4 +13,9 @@ tuplaChamada = ('ALEXSANDRA OLIVIEIRA PACHECO',
 'KAIQUE DEMETRIO')
 
 for i in tuplaChamada:
-    chamda = str(input(f'{i} esta presente?'))
+    chamada = str(input(f'{i} esta presente? s/n: '))
+    chamada.lower
+    if chamada == 's':
+        print(f'{i}, veio para aula')
+    else:
+        print(f'{i}, nao veio')
