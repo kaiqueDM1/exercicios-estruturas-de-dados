@@ -1,3 +1,8 @@
+#Faça uma lista de palavras, com 20 palavras, após isso faça uma busca linear e uma binária,
+#em cada busca imprima em tela quantas buscas o algoritmo fez até chegar na palavra que está na última posição do vetor.
+#Após isso compare qual é a busca mais efetiva.
+
+### Busca linear
 
 nomes = ['kaique','pablo','mario','joao','oscar','cezar','vericimo','lucas','andre','arthur','carlos','jonas','daniel','andrei',
          'rhyan','julio','marcos','henrique','joilson','paulin']
@@ -49,6 +54,8 @@ else:
     print('foram feitas', i, 'buscas na lista')
 
 
+### Busca Linear
+
 item_buscar = 'vericimo'
 posicao_encontrado = -1
 
@@ -63,3 +70,5 @@ else:
     print('Item encontrado na posição: ', posicao_encontrado)
 
 print('foram feitas', i, 'buscar na lista')
+
+### Busca binária e mais efetiva

@@ -1,8 +1,7 @@
-joao = 'gay'
 lista = [3,4,8,13,2,10,6,7,32,95,5,0,11,12,34,9,17]
 lista.sort
 
-item_buscar = 100
+item_buscar = 34
 posicao_encontrado = -1
 maior_menor = -1 #inicio, 0 menor , 1 maior
 i = 1
